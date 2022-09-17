@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    background-color: rgb(144, 140, 20);
+    animation-name: mudarRetangulo;
+    animation-duration: 2s;
+}
+@keyframes mudarRetangulo {
+    from{
+        height: 400px;
+        width: 400px;
+    }
+    to{
+        height: 100px;
+        width: 200px;
+        border-radius: 0px;
+    }
+}

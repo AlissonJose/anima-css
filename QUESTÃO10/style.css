@@ -1,0 +1,35 @@
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    animation-name: img;
+    animation-duration: 5s;    
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+@keyframes img{
+    from{
+    top: 0;
+    left: 0%;
+    
+
+}
+
+    to{
+    top: -450px;
+    left: -900px;
+    width: 70px;
+    height: 70px;
+    
+    }
+}

@@ -1,0 +1,13 @@
+.circulo{
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+    border-radius: 50%;
+    margin: 50%;
+    
+}
+
+.circulo:hover{
+    background-color: aquamarine;
+    
+}

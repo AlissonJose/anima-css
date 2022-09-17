@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    border: 10px solid #00ffc8;    
+    height: 50px;
+    width: 50px;
+    position: absolute; bottom: 600px,top: -600px;
+    animation-name: disappear;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    transform
+
+}
+
+
+body{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+
+}	
+
+    @keyframes disappear{
+
+        from{
+            height: 200px;
+            width: 200px;
+    
+        }
+    
+        50%{
+            height: 250px;
+            width: 250px;
+        }
+    
+        to{
+            height: 200px;
+            width: 200px;
+        }
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        }

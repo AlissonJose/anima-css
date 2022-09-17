@@ -1,0 +1,143 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #9fccf7;
+
+}
+
+#entrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-color: #3891a169;
+    padding: 40px;
+    border-radius: 1px;
+    width:280px;
+    border-radius: 9px;
+    border:1px solid black;
+    animation-name: EntrarNaTela;
+    animation-duration: 10s;
+
+}
+
+.card-header {
+    background-color:  #3891a169;
+    border-radius: 20px;
+    margin: center;
+    padding: 3px 10px;
+    border:1px solid black;
+    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.card-content label {
+
+    color: rgb(0, 0, 0);
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+    
+    padding:10px 0;
+
+    
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+           
+    
+    border-bottom: 1px solid #000000;
+
+    outline: none;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #3891a1;
+
+
+    border-radius: 9px;
+    border:none;
+
+    color:#000000;
+
+    
+
+    margin: 10px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    
+
+    
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+
+    
+
+}
+
+@keyframes EntrarNaTela {
+    from{
+        margin-top: -1000px;
+    }
+    to{
+        margin-top: 10px;
+    }
+}

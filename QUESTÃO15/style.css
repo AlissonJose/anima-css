@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(237, 16, 178);
+    border-radius: 300px; 
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}
+@keyframes jump {
+    from{
+        margin-bottom: 0px;
+    }
+    50%{
+        margin-top: 100px;
+    }
+    to{
+        margin-top: 0px;
+    }
+}

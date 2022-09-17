@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute; bottom: 600px,top: -600px;
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: spin(0deg);
+        background-color: blueviolet;
+    }
+
+    12.5% {
+        transform: spin(45deg);
+        background-color: red;
+    }
+
+    25% {
+        transform: spin(90deg);
+        background-color: blue;
+    }
+
+    37.5% {
+        transform: spin(135deg);
+        background-color: orange;
+
+    }
+    
+    50% {
+        transform: spin(180deg);
+        background-color: rgb(49, 226, 43);
+    }
+
+    62.5% {
+        transform: spin(225deg);
+        background-color: rgb(43, 226, 202);
+    }
+
+    75% {
+        transform: spin(270deg);
+        background-color: rgb(192, 226, 43);
+    }
+    82.5% {
+        transform: spin(315);
+        background-color: rgb(255, 230, 0);
+    }
+
+    100% {
+        transform: spin(360deg);
+        background-color: rgb(243, 0, 190);
+    }
+}
+body{
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+
+}
